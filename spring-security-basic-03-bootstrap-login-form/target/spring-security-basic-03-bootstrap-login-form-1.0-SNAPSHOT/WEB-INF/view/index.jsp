@@ -11,12 +11,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Login Page</title>
+        <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello !</h1>
-         <form:form action="${pageContext.request.contextPath}/logout" method="POST" >
-             <input type="submit" value="Logout">
-         </form:form>   
+        <h1>Hello Tahir!</h1>
     </body>
 </html>
