@@ -22,4 +22,13 @@ public class LoginController {
         //return "plain-login";
         return "fancy-login";
     }
+    
+    // add request for access-denied
+     @RequestMapping("/access-denied")
+    public String showAccessDenied(){ 
+        
+        return "access-denied";
+    }
+    
+    
 }

@@ -20,4 +20,16 @@ public class DemoController {
     public String showHome(){
         return "index";
     }
+    
+    // addd request mapping for /leaders
+    @RequestMapping("/leaders")
+    public String showLeaders(){
+        return "leaders";
+    }
+    
+    // addd request mapping for /systems
+    @RequestMapping("/systems")
+    public String showsystems(){
+        return "systems";
+    }
 }
